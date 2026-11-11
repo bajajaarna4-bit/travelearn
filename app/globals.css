@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-fraunces: 'Fraunces', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-devanagari: 'Noto Sans Devanagari', sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: #FAF8F5;
+  color: #2A2019;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(229, 184, 152, 0.28);
+}
+
+.glass-panel-dark {
+  background: rgba(28, 25, 54, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(234, 225, 215, 0.7);
+  box-shadow: 0 10px 30px -10px rgba(200, 116, 67, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+}
+
+.glass-card:hover {
+  border-color: rgba(200, 116, 67, 0.4);
+  box-shadow: 0 16px 36px -12px rgba(200, 116, 67, 0.16);
+}
+
+/* Golden Hour Gradients */
+.bg-golden-hour {
+  background: linear-gradient(135deg, #FFF6EE 0%, #FDF0E3 45%, #F7E4D3 100%);
+}
+
+.text-gradient-saffron {
+  background: linear-gradient(135deg, #C87443 0%, #D35400 50%, #B76E1B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-rose {
+  background: linear-gradient(135deg, #B0592E 0%, #C0392B 60%, #8E44AD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5B898;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C87443;
+}
+
+/* Animated stamp seal */
+.stamp-seal {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  border: 1.5px dashed currentColor;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Women Safety Glow Pulse */
+.safety-pulse {
+  animation: safetyPulse 2.5s infinite;
+}
+
+@keyframes safetyPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(47, 133, 102, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(47, 133, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(47, 133, 102, 0);
+  }
+}
+
+/* SOS Alert Pulse */
+.sos-pulse {
+  animation: sosPulse 1.2s infinite;
+}
+
+@keyframes sosPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(220, 38, 38, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+  }
+}
