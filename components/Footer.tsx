@@ -110,3 +110,4 @@ export default function Footer({ onOpenSafetyShield }: FooterProps) {
     </footer>
   );
 }
+

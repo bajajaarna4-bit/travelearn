@@ -282,3 +282,4 @@ CREATE POLICY "Users can manage their own trusted contacts" ON trusted_contacts
 
 CREATE POLICY "Users can read their own messages" ON messages
     FOR SELECT USING (auth.uid() = sender_id OR auth.uid() = recipient_id);
+

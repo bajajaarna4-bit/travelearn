@@ -220,3 +220,4 @@ export default function TravelCompanionAIModal({ isOpen, onClose }: TravelCompan
     </div>
   );
 }
+

@@ -228,3 +228,4 @@ export default function ChaiTableModal({ isOpen, onClose }: ChaiTableModalProps)
     </div>
   );
 }
+

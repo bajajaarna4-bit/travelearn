@@ -320,3 +320,4 @@ export default function VibeMatchModal({ isOpen, onClose }: VibeMatchModalProps)
     </div>
   );
 }
+

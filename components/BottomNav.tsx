@@ -90,3 +90,4 @@ export default function BottomNav({ onOpenSafetyShield, onOpenChaiTable }: Botto
     </div>
   );
 }
+

@@ -273,3 +273,4 @@ export default function SafetyShieldModal({ isOpen, onClose }: SafetyShieldModal
     </div>
   );
 }
+

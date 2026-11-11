@@ -45,3 +45,4 @@ INSERT INTO phrases (place_id, english, hindi_devanagari, transliteration, conte
 VALUES
 ('pl_pushkar', 'Peace be with you / Greetings', 'राम राम सा / नमस्ते', 'Ram Ram Saa / Namaste', 'Greeting', 'Ram Ram Saa'),
 ('pl_pushkar', 'No thank you, please don’t bother me', 'नहीं, धन्यवाद। मुझे ज़रूरत नहीं है।', 'Nahin, dhanyavaad. Mujhe zaroorat nahin hai.', 'Emergency & Safety', 'Nahin, dhanyavaad. Mujhe zaroorat nahin hai.');
+

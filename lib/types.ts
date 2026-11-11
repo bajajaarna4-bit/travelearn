@@ -209,3 +209,4 @@ export interface BarterItem {
   notes: string;
   verified: boolean;
 }
+

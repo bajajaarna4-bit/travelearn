@@ -114,3 +114,4 @@ pnpm start
 2. **Offline-First PWA:** Full service-worker caching for maps and emergency contacts when trekking through remote valleys without network coverage.
 3. **Regional Languages Expansion:** Full Hindi, Bengali, Tamil, Malayalam, and French locale translations.
 4. **Volunteer Visa Integration:** Verified host sponsorship documents for roamers applying for formal Indian Volunteer Visas.
+
